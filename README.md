@@ -7,7 +7,7 @@ Modeste script Bash pour créer une autorité de certification locale et des cer
 - Saisir une passphrase sauvegardée quelque part car elle sera demandée au reboot du serveur Web (ex : Apache)
 - Saisir un Export Password sauvegardé quelque part car il sera demandé à l'import du pfx dans un gestionnaire de certificat
 
-- Sous Windows, pour Chrome et IE, l'import du "FQDN.pfx" dans le gestionnaire de certificat génère 2 certificats qui sont a stocker dans le magasin "Personnel" puis les copier/coller dans les magasins "Autorités de certification racines de confiance" et "Autorités de certification intermediaires" 
+- Sous Windows, pour Chrome et IE, l'import du "FQDN.pfx" dans le gestionnaire de certificat (mmc) génère 2 certificats qui sont a stocker dans le magasin "Personnel" puis les copier/coller depuis MMC dans les magasins "Autorités de certification racines de confiance" et "Autorités de certification intermediaires" 
 
 (lors de l'import le mot de passe demandé est le Export Password + cocher les cases 'Marquer cette clé comme exportable' et 'Inclure les propriétés étendues') 
 
